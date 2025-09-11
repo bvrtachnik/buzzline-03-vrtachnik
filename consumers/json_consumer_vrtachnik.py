@@ -89,6 +89,11 @@ def process_message(message: str) -> None:
         # Ensure the processed JSON is logged for debugging
         logger.info(f"Processed JSON message: {message_dict}")
 
+        # Real-time alerting on specific patterns
+        text = message_dict.get("message", "").lower()
+        if "confusing" in text or "error" in text:
+            logger.warning(f"ALERT: Pattern matched in message: {message_dict}")
+
         # Extract the 'author' field from the Python dictionary
         author = message_dict.get("author", "unknown")
         logger.info(f"Message received from author: {author}")

@@ -1,74 +1,344 @@
-2025-09-11 19:32:18 | INFO | Data file: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:18 | INFO | START producer.
-2025-09-11 19:32:18 | INFO | Kafka broker address: localhost:9092
-2025-09-11 19:32:18 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '_qad_MQZRtmfrbOLzRMSMg', 'controller_id': 1}
-2025-09-11 19:32:18 | INFO | Kafka topic: buzzline_json
-2025-09-11 19:32:18 | INFO | Message interval: 1 seconds
-2025-09-11 19:32:18 | INFO | Kafka broker address: localhost:9092
-2025-09-11 19:32:18 | INFO | Connecting to Kafka broker at localhost:9092...
-2025-09-11 19:32:18 | INFO | Kafka producer successfully created.
-2025-09-11 19:32:18 | INFO | Kafka broker address: localhost:9092
-2025-09-11 19:32:18 | INFO | Topic 'buzzline_json' already exists. Recreating fresh...
-2025-09-11 19:32:19 | INFO | Requested deletion of topic 'buzzline_json'.
-2025-09-11 19:32:19 | INFO | Topic 'buzzline_json' created successfully.
-2025-09-11 19:32:19 | INFO | Kafka topic 'buzzline_json' is ready.
-2025-09-11 19:32:19 | INFO | Starting message production to topic 'buzzline_json'...
-2025-09-11 19:32:19 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:19 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
-2025-09-11 19:32:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
-2025-09-11 19:32:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
-2025-09-11 19:32:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
-2025-09-11 19:32:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
-2025-09-11 19:32:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
-2025-09-11 19:32:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
-2025-09-11 19:32:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
-2025-09-11 19:32:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
-2025-09-11 19:32:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
-2025-09-11 19:32:29 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:29 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
-2025-09-11 19:32:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
-2025-09-11 19:32:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
-2025-09-11 19:32:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
-2025-09-11 19:32:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
-2025-09-11 19:32:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
-2025-09-11 19:32:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
-2025-09-11 19:32:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
-2025-09-11 19:32:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
-2025-09-11 19:32:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
-2025-09-11 19:32:39 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:39 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
-2025-09-11 19:32:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
-2025-09-11 19:32:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
-2025-09-11 19:32:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
-2025-09-11 19:32:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
-2025-09-11 19:32:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
-2025-09-11 19:32:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
-2025-09-11 19:32:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
-2025-09-11 19:32:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
-2025-09-11 19:32:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
-2025-09-11 19:32:49 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:49 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
-2025-09-11 19:32:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
-2025-09-11 19:32:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
-2025-09-11 19:32:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
-2025-09-11 19:32:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
-2025-09-11 19:32:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
-2025-09-11 19:32:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
-2025-09-11 19:32:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
-2025-09-11 19:32:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
-2025-09-11 19:32:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
-2025-09-11 19:32:59 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:59 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
-2025-09-11 19:32:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
-2025-09-11 19:33:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
-2025-09-11 19:33:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
-2025-09-11 19:33:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
-2025-09-11 19:33:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
-2025-09-11 19:33:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
-2025-09-11 19:33:04 | WARNING | Producer interrupted by user.
-2025-09-11 19:33:04 | INFO | Kafka producer closed.
-2025-09-11 19:33:04 | INFO | END producer.
+2025-09-11 19:45:49 | INFO | Processed JSON message: {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:45:49 | INFO | Message received from author: Diana
+2025-09-11 19:45:49 | INFO | Updated author counts: {'Eve': 15, 'Alice': 16, 'Charlie': 8, 'Diana': 8, 'Bob': 7, 'Morgan': 7, 'Taylor': 7, 'Alex': 7}
+2025-09-11 19:45:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:45:50 | INFO | Processed JSON message: {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:45:50 | INFO | Message received from author: Bob
+2025-09-11 19:45:50 | INFO | Updated author counts: {'Eve': 15, 'Alice': 16, 'Charlie': 8, 'Diana': 8, 'Bob': 8, 'Morgan': 7, 'Taylor': 7, 'Alex': 7}
+2025-09-11 19:45:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:45:51 | INFO | Processed JSON message: {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:45:51 | INFO | Message received from author: Eve
+2025-09-11 19:45:51 | INFO | Updated author counts: {'Eve': 16, 'Alice': 16, 'Charlie': 8, 'Diana': 8, 'Bob': 8, 'Morgan': 7, 'Taylor': 7, 'Alex': 7}
+2025-09-11 19:45:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:45:52 | INFO | Processed JSON message: {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:45:52 | INFO | Message received from author: Morgan
+2025-09-11 19:45:52 | INFO | Updated author counts: {'Eve': 16, 'Alice': 16, 'Charlie': 8, 'Diana': 8, 'Bob': 8, 'Morgan': 8, 'Taylor': 7, 'Alex': 7}
+2025-09-11 19:45:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:45:53 | INFO | Processed JSON message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:45:53 | INFO | Message received from author: Taylor
+2025-09-11 19:45:53 | INFO | Updated author counts: {'Eve': 16, 'Alice': 16, 'Charlie': 8, 'Diana': 8, 'Bob': 8, 'Morgan': 8, 'Taylor': 8, 'Alex': 7}
+2025-09-11 19:45:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:45:54 | INFO | Processed JSON message: {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:45:54 | INFO | Message received from author: Alex
+2025-09-11 19:45:54 | INFO | Updated author counts: {'Eve': 16, 'Alice': 16, 'Charlie': 8, 'Diana': 8, 'Bob': 8, 'Morgan': 8, 'Taylor': 8, 'Alex': 8}
+2025-09-11 19:45:55 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:45:55 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:45:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:45:55 | INFO | Processed JSON message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:45:55 | INFO | Message received from author: Eve
+2025-09-11 19:45:55 | INFO | Updated author counts: {'Eve': 17, 'Alice': 16, 'Charlie': 8, 'Diana': 8, 'Bob': 8, 'Morgan': 8, 'Taylor': 8, 'Alex': 8}
+2025-09-11 19:45:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:45:56 | INFO | Processed JSON message: {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:45:56 | INFO | Message received from author: Alice
+2025-09-11 19:45:56 | INFO | Updated author counts: {'Eve': 17, 'Alice': 17, 'Charlie': 8, 'Diana': 8, 'Bob': 8, 'Morgan': 8, 'Taylor': 8, 'Alex': 8}
+2025-09-11 19:45:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:45:57 | WARNING | Consumer interrupted by user.
+2025-09-11 19:45:57 | INFO | Kafka consumer for topic 'buzzline_json' closed.
+2025-09-11 19:45:57 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-09-11 19:45:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:45:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:05 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:05 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:07 | INFO | Logging to file: logs/project_log.log
+2025-09-11 19:46:07 | INFO | Log sanitization enabled, personal info removed
+2025-09-11 19:46:07 | INFO | START consumer.
+2025-09-11 19:46:07 | INFO | Kafka topic: buzzline_json
+2025-09-11 19:46:07 | INFO | Kafka consumer group id: buzz_group
+2025-09-11 19:46:07 | INFO | Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-09-11 19:46:07 | INFO | Kafka broker address: localhost:9092
+2025-09-11 19:46:07 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-09-11 19:46:07 | INFO | Kafka consumer created successfully.
+2025-09-11 19:46:07 | INFO | Polling messages from topic 'buzzline_json'...
+2025-09-11 19:46:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:11 | INFO | Message received from author: Charlie
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:11 | INFO | Message received from author: Alice
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:11 | INFO | Message received from author: Diana
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 1, 'Diana': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:11 | INFO | Message received from author: Bob
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 1, 'Diana': 1, 'Bob': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:11 | INFO | Message received from author: Eve
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 1, 'Diana': 1, 'Bob': 1, 'Eve': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:11 | INFO | Message received from author: Morgan
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 1, 'Diana': 1, 'Bob': 1, 'Eve': 1, 'Morgan': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:11 | WARNING | ALERT: Pattern matched in message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:11 | INFO | Message received from author: Taylor
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 1, 'Diana': 1, 'Bob': 1, 'Eve': 1, 'Morgan': 1, 'Taylor': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:11 | INFO | Message received from author: Alex
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 1, 'Diana': 1, 'Bob': 1, 'Eve': 1, 'Morgan': 1, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:11 | WARNING | ALERT: Pattern matched in message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:11 | INFO | Message received from author: Eve
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 1, 'Diana': 1, 'Bob': 1, 'Eve': 2, 'Morgan': 1, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:11 | INFO | Message received from author: Alice
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 1, 'Alice': 2, 'Diana': 1, 'Bob': 1, 'Eve': 2, 'Morgan': 1, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:11 | INFO | Message received from author: Charlie
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 2, 'Diana': 1, 'Bob': 1, 'Eve': 2, 'Morgan': 1, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:11 | INFO | Message received from author: Alice
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 3, 'Diana': 1, 'Bob': 1, 'Eve': 2, 'Morgan': 1, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:11 | INFO | Message received from author: Diana
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 3, 'Diana': 2, 'Bob': 1, 'Eve': 2, 'Morgan': 1, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:11 | INFO | Message received from author: Bob
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 3, 'Diana': 2, 'Bob': 2, 'Eve': 2, 'Morgan': 1, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:11 | INFO | Processed JSON message: {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:11 | INFO | Message received from author: Eve
+2025-09-11 19:46:11 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 3, 'Diana': 2, 'Bob': 2, 'Eve': 3, 'Morgan': 1, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:12 | INFO | Processed JSON message: {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:12 | INFO | Message received from author: Morgan
+2025-09-11 19:46:12 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 3, 'Diana': 2, 'Bob': 2, 'Eve': 3, 'Morgan': 2, 'Taylor': 1, 'Alex': 1}
+2025-09-11 19:46:13 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:13 | INFO | Processed JSON message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:13 | WARNING | ALERT: Pattern matched in message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:13 | INFO | Message received from author: Taylor
+2025-09-11 19:46:13 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 3, 'Diana': 2, 'Bob': 2, 'Eve': 3, 'Morgan': 2, 'Taylor': 2, 'Alex': 1}
+2025-09-11 19:46:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:14 | INFO | Processed JSON message: {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:14 | INFO | Message received from author: Alex
+2025-09-11 19:46:14 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 3, 'Diana': 2, 'Bob': 2, 'Eve': 3, 'Morgan': 2, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:15 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:15 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:15 | INFO | Processed JSON message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:15 | WARNING | ALERT: Pattern matched in message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:15 | INFO | Message received from author: Eve
+2025-09-11 19:46:15 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 3, 'Diana': 2, 'Bob': 2, 'Eve': 4, 'Morgan': 2, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:16 | INFO | Processed JSON message: {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:16 | INFO | Message received from author: Alice
+2025-09-11 19:46:16 | INFO | Updated author counts: {'Charlie': 2, 'Alice': 4, 'Diana': 2, 'Bob': 2, 'Eve': 4, 'Morgan': 2, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:17 | INFO | Processed JSON message: {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:17 | INFO | Message received from author: Charlie
+2025-09-11 19:46:17 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 4, 'Diana': 2, 'Bob': 2, 'Eve': 4, 'Morgan': 2, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:18 | INFO | Processed JSON message: {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:18 | INFO | Message received from author: Alice
+2025-09-11 19:46:18 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 5, 'Diana': 2, 'Bob': 2, 'Eve': 4, 'Morgan': 2, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:19 | INFO | Processed JSON message: {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:19 | INFO | Message received from author: Diana
+2025-09-11 19:46:19 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 5, 'Diana': 3, 'Bob': 2, 'Eve': 4, 'Morgan': 2, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:20 | INFO | Processed JSON message: {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:20 | INFO | Message received from author: Bob
+2025-09-11 19:46:20 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 5, 'Diana': 3, 'Bob': 3, 'Eve': 4, 'Morgan': 2, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:21 | INFO | Processed JSON message: {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:21 | INFO | Message received from author: Eve
+2025-09-11 19:46:21 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 5, 'Diana': 3, 'Bob': 3, 'Eve': 5, 'Morgan': 2, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:22 | INFO | Processed JSON message: {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:22 | INFO | Message received from author: Morgan
+2025-09-11 19:46:22 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 5, 'Diana': 3, 'Bob': 3, 'Eve': 5, 'Morgan': 3, 'Taylor': 2, 'Alex': 2}
+2025-09-11 19:46:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:23 | INFO | Processed JSON message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:23 | WARNING | ALERT: Pattern matched in message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:23 | INFO | Message received from author: Taylor
+2025-09-11 19:46:23 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 5, 'Diana': 3, 'Bob': 3, 'Eve': 5, 'Morgan': 3, 'Taylor': 3, 'Alex': 2}
+2025-09-11 19:46:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:24 | INFO | Processed JSON message: {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:24 | INFO | Message received from author: Alex
+2025-09-11 19:46:24 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 5, 'Diana': 3, 'Bob': 3, 'Eve': 5, 'Morgan': 3, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:25 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:25 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:25 | INFO | Processed JSON message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:25 | WARNING | ALERT: Pattern matched in message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:25 | INFO | Message received from author: Eve
+2025-09-11 19:46:25 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 5, 'Diana': 3, 'Bob': 3, 'Eve': 6, 'Morgan': 3, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:26 | INFO | Processed JSON message: {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:26 | INFO | Message received from author: Alice
+2025-09-11 19:46:26 | INFO | Updated author counts: {'Charlie': 3, 'Alice': 6, 'Diana': 3, 'Bob': 3, 'Eve': 6, 'Morgan': 3, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:27 | INFO | Processed JSON message: {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:27 | INFO | Message received from author: Charlie
+2025-09-11 19:46:27 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 6, 'Diana': 3, 'Bob': 3, 'Eve': 6, 'Morgan': 3, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:28 | INFO | Processed JSON message: {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:28 | INFO | Message received from author: Alice
+2025-09-11 19:46:28 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 7, 'Diana': 3, 'Bob': 3, 'Eve': 6, 'Morgan': 3, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:29 | INFO | Processed JSON message: {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:29 | INFO | Message received from author: Diana
+2025-09-11 19:46:29 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 7, 'Diana': 4, 'Bob': 3, 'Eve': 6, 'Morgan': 3, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:30 | INFO | Processed JSON message: {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:30 | INFO | Message received from author: Bob
+2025-09-11 19:46:30 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 7, 'Diana': 4, 'Bob': 4, 'Eve': 6, 'Morgan': 3, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:31 | INFO | Processed JSON message: {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:31 | INFO | Message received from author: Eve
+2025-09-11 19:46:31 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 7, 'Diana': 4, 'Bob': 4, 'Eve': 7, 'Morgan': 3, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:32 | INFO | Processed JSON message: {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:32 | INFO | Message received from author: Morgan
+2025-09-11 19:46:32 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 7, 'Diana': 4, 'Bob': 4, 'Eve': 7, 'Morgan': 4, 'Taylor': 3, 'Alex': 3}
+2025-09-11 19:46:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:33 | INFO | Processed JSON message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:33 | WARNING | ALERT: Pattern matched in message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:33 | INFO | Message received from author: Taylor
+2025-09-11 19:46:33 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 7, 'Diana': 4, 'Bob': 4, 'Eve': 7, 'Morgan': 4, 'Taylor': 4, 'Alex': 3}
+2025-09-11 19:46:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:34 | INFO | Processed JSON message: {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:34 | INFO | Message received from author: Alex
+2025-09-11 19:46:34 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 7, 'Diana': 4, 'Bob': 4, 'Eve': 7, 'Morgan': 4, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:35 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:35 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:35 | INFO | Processed JSON message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:35 | WARNING | ALERT: Pattern matched in message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:35 | INFO | Message received from author: Eve
+2025-09-11 19:46:35 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 7, 'Diana': 4, 'Bob': 4, 'Eve': 8, 'Morgan': 4, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:36 | INFO | Processed JSON message: {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:36 | INFO | Message received from author: Alice
+2025-09-11 19:46:36 | INFO | Updated author counts: {'Charlie': 4, 'Alice': 8, 'Diana': 4, 'Bob': 4, 'Eve': 8, 'Morgan': 4, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:37 | INFO | Processed JSON message: {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:37 | INFO | Message received from author: Charlie
+2025-09-11 19:46:37 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 8, 'Diana': 4, 'Bob': 4, 'Eve': 8, 'Morgan': 4, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:38 | INFO | Processed JSON message: {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:38 | INFO | Message received from author: Alice
+2025-09-11 19:46:38 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 9, 'Diana': 4, 'Bob': 4, 'Eve': 8, 'Morgan': 4, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:39 | INFO | Processed JSON message: {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:39 | INFO | Message received from author: Diana
+2025-09-11 19:46:39 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 9, 'Diana': 5, 'Bob': 4, 'Eve': 8, 'Morgan': 4, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:40 | INFO | Processed JSON message: {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:40 | INFO | Message received from author: Bob
+2025-09-11 19:46:40 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 9, 'Diana': 5, 'Bob': 5, 'Eve': 8, 'Morgan': 4, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:41 | INFO | Processed JSON message: {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:41 | INFO | Message received from author: Eve
+2025-09-11 19:46:41 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 9, 'Diana': 5, 'Bob': 5, 'Eve': 9, 'Morgan': 4, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:42 | INFO | Processed JSON message: {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:42 | INFO | Message received from author: Morgan
+2025-09-11 19:46:42 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 9, 'Diana': 5, 'Bob': 5, 'Eve': 9, 'Morgan': 5, 'Taylor': 4, 'Alex': 4}
+2025-09-11 19:46:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:43 | INFO | Processed JSON message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:43 | WARNING | ALERT: Pattern matched in message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:43 | INFO | Message received from author: Taylor
+2025-09-11 19:46:43 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 9, 'Diana': 5, 'Bob': 5, 'Eve': 9, 'Morgan': 5, 'Taylor': 5, 'Alex': 4}
+2025-09-11 19:46:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:44 | INFO | Processed JSON message: {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:44 | INFO | Message received from author: Alex
+2025-09-11 19:46:44 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 9, 'Diana': 5, 'Bob': 5, 'Eve': 9, 'Morgan': 5, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:45 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:45 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:45 | INFO | Processed JSON message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:45 | WARNING | ALERT: Pattern matched in message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:45 | INFO | Message received from author: Eve
+2025-09-11 19:46:45 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 9, 'Diana': 5, 'Bob': 5, 'Eve': 10, 'Morgan': 5, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:46 | INFO | Processed JSON message: {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:46 | INFO | Message received from author: Alice
+2025-09-11 19:46:46 | INFO | Updated author counts: {'Charlie': 5, 'Alice': 10, 'Diana': 5, 'Bob': 5, 'Eve': 10, 'Morgan': 5, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:47 | INFO | Processed JSON message: {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:47 | INFO | Message received from author: Charlie
+2025-09-11 19:46:47 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 10, 'Diana': 5, 'Bob': 5, 'Eve': 10, 'Morgan': 5, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:48 | INFO | Processed JSON message: {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:48 | INFO | Message received from author: Alice
+2025-09-11 19:46:48 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 11, 'Diana': 5, 'Bob': 5, 'Eve': 10, 'Morgan': 5, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:49 | INFO | Processed JSON message: {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:49 | INFO | Message received from author: Diana
+2025-09-11 19:46:49 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 11, 'Diana': 6, 'Bob': 5, 'Eve': 10, 'Morgan': 5, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:50 | INFO | Processed JSON message: {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:46:50 | INFO | Message received from author: Bob
+2025-09-11 19:46:50 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 11, 'Diana': 6, 'Bob': 6, 'Eve': 10, 'Morgan': 5, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:51 | INFO | Processed JSON message: {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:46:51 | INFO | Message received from author: Eve
+2025-09-11 19:46:51 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 11, 'Diana': 6, 'Bob': 6, 'Eve': 11, 'Morgan': 5, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:52 | INFO | Processed JSON message: {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:46:52 | INFO | Message received from author: Morgan
+2025-09-11 19:46:52 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 11, 'Diana': 6, 'Bob': 6, 'Eve': 11, 'Morgan': 6, 'Taylor': 5, 'Alex': 5}
+2025-09-11 19:46:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:53 | INFO | Processed JSON message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:53 | WARNING | ALERT: Pattern matched in message: {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:46:53 | INFO | Message received from author: Taylor
+2025-09-11 19:46:53 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 11, 'Diana': 6, 'Bob': 6, 'Eve': 11, 'Morgan': 6, 'Taylor': 6, 'Alex': 5}
+2025-09-11 19:46:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:54 | INFO | Processed JSON message: {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:46:54 | INFO | Message received from author: Alex
+2025-09-11 19:46:54 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 11, 'Diana': 6, 'Bob': 6, 'Eve': 11, 'Morgan': 6, 'Taylor': 6, 'Alex': 6}
+2025-09-11 19:46:55 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:55 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:46:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:55 | INFO | Processed JSON message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:55 | WARNING | ALERT: Pattern matched in message: {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:46:55 | INFO | Message received from author: Eve
+2025-09-11 19:46:55 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 11, 'Diana': 6, 'Bob': 6, 'Eve': 12, 'Morgan': 6, 'Taylor': 6, 'Alex': 6}
+2025-09-11 19:46:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:56 | INFO | Processed JSON message: {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:46:56 | INFO | Message received from author: Alice
+2025-09-11 19:46:56 | INFO | Updated author counts: {'Charlie': 6, 'Alice': 12, 'Diana': 6, 'Bob': 6, 'Eve': 12, 'Morgan': 6, 'Taylor': 6, 'Alex': 6}
+2025-09-11 19:46:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:57 | INFO | Processed JSON message: {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:46:57 | INFO | Message received from author: Charlie
+2025-09-11 19:46:57 | INFO | Updated author counts: {'Charlie': 7, 'Alice': 12, 'Diana': 6, 'Bob': 6, 'Eve': 12, 'Morgan': 6, 'Taylor': 6, 'Alex': 6}
+2025-09-11 19:46:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:58 | INFO | Processed JSON message: {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:46:58 | INFO | Message received from author: Alice
+2025-09-11 19:46:58 | INFO | Updated author counts: {'Charlie': 7, 'Alice': 13, 'Diana': 6, 'Bob': 6, 'Eve': 12, 'Morgan': 6, 'Taylor': 6, 'Alex': 6}
+2025-09-11 19:46:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:59 | INFO | Processed JSON message: {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:46:59 | INFO | Message received from author: Diana
+2025-09-11 19:46:59 | INFO | Updated author counts: {'Charlie': 7, 'Alice': 13, 'Diana': 7, 'Bob': 6, 'Eve': 12, 'Morgan': 6, 'Taylor': 6, 'Alex': 6}
+2025-09-11 19:47:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:47:00 | INFO | Processed JSON message: {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:47:00 | INFO | Message received from author: Bob
+2025-09-11 19:47:00 | INFO | Updated author counts: {'Charlie': 7, 'Alice': 13, 'Diana': 7, 'Bob': 7, 'Eve': 12, 'Morgan': 6, 'Taylor': 6, 'Alex': 6}
+2025-09-11 19:47:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:47:01 | WARNING | Consumer interrupted by user.
+2025-09-11 19:47:01 | INFO | Kafka consumer for topic 'buzzline_json' closed.
+2025-09-11 19:47:01 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-09-11 19:47:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:47:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
+2025-09-11 19:47:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun, but sometimes it stops.', 'author': 'Alex'}
+2025-09-11 19:47:05 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:47:05 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-11 19:47:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is confusing sometimes.', 'author': 'Eve'}
+2025-09-11 19:47:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems break a lot.', 'author': 'Alice'}
+2025-09-11 19:47:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day! Unless your code crashes.', 'author': 'Charlie'}
+2025-09-11 19:47:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages are just test messages.', 'author': 'Alice'}
+2025-09-11 19:47:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is cool, but hard to set up.', 'author': 'Diana'}
+2025-09-11 19:47:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world! Hope this works.', 'author': 'Bob'}
+2025-09-11 19:47:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message. Not sure what it does.', 'author': 'Eve'}
+2025-09-11 19:47:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON is easy, until you mess up the brackets.', 'author': 'Morgan'}
+2025-09-11 19:47:13 | WARNING | Producer interrupted by user.
