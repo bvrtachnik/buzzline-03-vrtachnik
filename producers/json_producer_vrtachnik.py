@@ -4,10 +4,10 @@ json_producer_vrtachnik.py
 Stream JSON data to a Kafka topic.
 
 Example JSON message
-{"message": "I love Python!", "author": "Eve"}
+{"message": "Data engineering is confusing sometimes.", "author": "Eve"}
 
 Example serialized to Kafka message
-"{\"message\": \"I love Python!\", \"author\": \"Eve\"}"
+"{\"message\": \"Data engineering is confusing sometimes.\", \"author\": \"Eve\"}"
 
 """
 
