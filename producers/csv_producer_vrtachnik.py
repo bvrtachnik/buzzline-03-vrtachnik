@@ -1,10 +1,13 @@
 """
 csv_producer_vrtachnik.py
 
-Stream numeric data to a Kafka topic.
+Stream custom messages to a Kafka topic.
 
 It is common to transfer csv data as JSON so 
 each field is clearly labeled. 
+
+Example custom message
+{"message": "Data engineering is confusing sometimes.", "author": "Eve"}
 """
 
 #####################################
@@ -70,7 +73,7 @@ DATA_FOLDER = PROJECT_ROOT.joinpath("data")
 logger.info(f"Data folder: {DATA_FOLDER}")
 
 # Set the name of the data file
-DATA_FILE = DATA_FOLDER.joinpath("smoker_temps.csv")
+DATA_FILE = DATA_FOLDER.joinpath("buzz.json")
 logger.info(f"Data file: {DATA_FILE}")
 
 #####################################
@@ -80,35 +83,23 @@ logger.info(f"Data file: {DATA_FILE}")
 
 def generate_messages(file_path: pathlib.Path):
     """
-    Read from a csv file and yield records one by one, continuously.
+    Read from a JSON file and yield records one by one, continuously.
 
     Args:
-        file_path (pathlib.Path): Path to the CSV file.
+        file_path (pathlib.Path): Path to the JSON file.
 
     Yields:
-        str: CSV row formatted as a string.
+        dict: JSON message as a dictionary.
     """
     while True:
         try:
             logger.info(f"Opening data file in read mode: {DATA_FILE}")
-            with open(DATA_FILE, "r") as csv_file:
+            with open(DATA_FILE, "r") as json_file:
                 logger.info(f"Reading data from file: {DATA_FILE}")
-
-                csv_reader = csv.DictReader(csv_file)
-                for row in csv_reader:
-                    # Ensure required fields are present
-                    if "temperature" not in row:
-                        logger.error(f"Missing 'temperature' column in row: {row}")
-                        continue
-
-                    # Generate a timestamp and prepare the message
-                    current_timestamp = datetime.utcnow().isoformat()
-                    message = {
-                        "timestamp": current_timestamp,
-                        "temperature": float(row["temperature"]),
-                    }
-                    logger.debug(f"Generated message: {message}")
-                    yield message
+                json_data = json.load(json_file)
+                for entry in json_data:
+                    logger.debug(f"Generated message: {entry}")
+                    yield entry
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
             sys.exit(1)
