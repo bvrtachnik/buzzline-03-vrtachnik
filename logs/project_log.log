@@ -34,3 +34,5 @@
 2025-09-11 21:27:19 | INFO | Kafka consumer for topic 'smoker_csv' closed.
 2025-09-11 21:27:23 | INFO | Sent message to topic 'smoker_csv': {'message': 'I love Python! Except when I get errors.', 'author': 'Taylor'}
 2025-09-11 21:27:26 | WARNING | Producer interrupted by user.
+2025-09-11 21:27:53 | INFO | Kafka producer closed.
+2025-09-11 21:27:53 | INFO | END producer.

@@ -1,4 +1,4 @@
-# buzzline-03-case
+# buzzline-03-vrtachnik
 
 Streaming data does not have to be simple text.
 Many of us are familiar with streaming video content and audio (e.g. music) files.
@@ -9,9 +9,6 @@ semi-structured (e.g. json data).
 We'll work with two different types of data, and so we'll use two different Kafka topic names.
 See [.env](.env).
 
-## First, Use Tools from Module 1 and 2
-
-Before starting, ensure you have completed the setup tasks in <https://github.com/denisecase/buzzline-01-case> and <https://github.com/denisecase/buzzline-02-case> first.
 **Python 3.11 is required.**
 
 ## Second, Copy This Example Project & Rename
@@ -118,14 +115,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.json_producer_case
+py -m producers.json_producer_vrtachnik
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m producers.json_producer_case
+python3 -m producers.json_producer_vrtachnik
 ```
 
 What did we name the topic used with JSON data?
@@ -142,14 +139,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.json_consumer_case
+py -m consumers.json_consumer_vrtachnik
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.json_consumer_case
+python3 -m consumers.json_consumer_vrtachnik
 ```
 
 What did we name the topic used with JSON data?
@@ -175,7 +172,7 @@ Hint: Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.csv_producer_case
+py -m producers.csv_producer_vrtachnik
 ```
 
 ## Task 6. Start a Kafka CSV Consumer
@@ -196,7 +193,7 @@ Hint: Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.csv_consumer_case
+py -m consumers.csv_consumer_vrtachnik
 ```
 
 ---
@@ -221,6 +218,16 @@ maintains a time window of the last 5 readings.
 If the temperature varies by less than 2 degrees, the consumer alerts
 the BBQ master that a stall has been detected. This time window helps
 capture recent trends while filtering out minor fluctuations.
+
+## My Custom Kafka Producers and Consumers
+
+- The JSON producer and consumer use custom messages from `buzz.json`.
+- The CSV producer and consumer also use custom messages from `buzz.json`.
+- Each message looks like this:
+  ```json
+  {"message": "Data engineering is confusing sometimes.", "author": "Eve"}
+  ```
+- See above for commands to run each script.
 
 ## Later Work Sessions
 
